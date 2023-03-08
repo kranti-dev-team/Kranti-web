@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +7,8 @@
     <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=github.com">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <!-- Stylesheet -->
     <style>
-        /* ---------------------- GOOGLE FONTS ---------------------- */
+/* ---------------------- GOOGLE FONTS ---------------------- */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 /* ---------------------- CSS VARIABLES ---------------------- */
@@ -118,7 +114,6 @@ body {
 
 
 .box button:active {
-    /* TODO:Color needs to be changed. */
     background: #27ae60;
 }
 
@@ -195,10 +190,11 @@ body {
         transform: translateX(1);
     }
 }
-    </style>
+</style>
+
 </head>
 
-<body>
+<body class="vsc-initialized">
     <div class="container">
         <div>
             <div class="wave"></div>
@@ -206,20 +202,20 @@ body {
             <div class="wave"></div>
         </div>
         <div class="box">
-            <h1>Login</h1>
-            <input type="text" placeholder="Username" />
-            <input type="password" placeholder="Password" />
-            <button>Login</button>
-            <p>Not a member? <span><a href = "Signup.html">Sign Up</a></span></p>
+            <h1>Sign-Up</h1>
+            <input type="text" placeholder="First Name">
+             <input type="text" placeholder="Username"> 
+             <input type="email" placeholder="Email Address">
+
+
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button>Sign Up</button>
+            <p>Already a member? <span>Log In</span></p>
         </div>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
-</body>
 
-</html>
-<!-- TODO: Email basic validation -->
-<!-- TODO: Eyes icon - pwd show/hide -->
-<!-- TODO: Background if needed to be changed -->
-<!-- TODO: Favicon add left -->
-<!-- TODO: Login heading update - add kranti education -->
+
+</body></html>
